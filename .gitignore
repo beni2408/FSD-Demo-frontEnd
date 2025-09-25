@@ -1,0 +1,26 @@
+
+# Log files that should be ignored
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build output and dependencies
+node_modules        # Node.js dependencies
+dist               # Build output directory
+dist-ssr           # SSR build output
+*.local            # Local development files
+
+# Editor and OS specific files
+.vscode/*          # VS Code settings
+!.vscode/extensions.json  # But keep extensions list
+.idea              # IntelliJ IDEA files
+.DS_Store          # macOS system files
+*.suo              # Visual Studio files
+*.ntvs*            # Node Tools for VS files
+*.njsproj          # Node.js project files
+*.sln              # Visual Studio solution files
+*.sw?              # Vim swap files
